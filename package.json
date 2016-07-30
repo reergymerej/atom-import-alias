@@ -1,0 +1,19 @@
+{
+  "name": "atom-import-alias",
+  "main": "./lib/atom-import-alias",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-import-alias:toggle"
+  },
+  "repository": "https://github.com/atom/atom-import-alias",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "import-alias": "1.0.0"
+  }
+}
