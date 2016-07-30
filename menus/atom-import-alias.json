@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-import-alias",
-        "command": "atom-import-alias:toggle"
+        "label": "Import Alias",
+        "command": "atom-import-alias:transform"
       }
     ]
   },
@@ -12,13 +12,8 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-import-alias",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "atom-import-alias:toggle"
-            }
-          ]
+          "label": "Import Alias",
+          "command": "atom-import-alias:transform"
         }
       ]
     }
