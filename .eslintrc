@@ -5,19 +5,18 @@
   ],
   "parserOptions": {
     "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
+    "sourceType": "module"
   },
   "env": {
-    "es6": true
+    "es6": true,
+    "node": true
   },
   "globals": {
     "atom": true,
-    "document": true
+    "document": true,
   },
   "rules": {
-    "comma-dangle": [2, "always-multiline"]
+    "comma-dangle": [2, "always-multiline"],
+    "no-console": 0
   }
 }
