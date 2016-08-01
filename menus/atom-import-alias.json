@@ -3,7 +3,17 @@
     "atom-text-editor": [
       {
         "label": "Import Alias",
-        "command": "atom-import-alias:transform"
+        "label": "Import Alias",
+        "submenu": [
+          {
+            "label": "Transform",
+            "command": "atom-import-alias:transform"
+          },
+          {
+            "label": "Toggle Watch",
+            "command": "atom-import-alias:toggleWatch"
+          }
+        ]
       }
     ]
   },
@@ -13,7 +23,16 @@
       "submenu": [
         {
           "label": "Import Alias",
-          "command": "atom-import-alias:transform"
+          "submenu": [
+              {
+                "label": "Transform",
+                "command": "atom-import-alias:transform"
+              },
+              {
+                "label": "Toggle Watch",
+                "command": "atom-import-alias:toggleWatch"
+              }
+          ]
         }
       ]
     }
